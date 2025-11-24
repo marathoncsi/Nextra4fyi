@@ -25,12 +25,11 @@
     "eslint-config-next": "15.2.1",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind" 
-  // The site output path might need adjustment based on your Next.js version and config.
- }
+ },
+ "scripts": {
+   "dev": "next dev",
+   "build": "next build",
+   "start": "next start",
+   "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind" 
+  }
 }
