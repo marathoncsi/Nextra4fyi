@@ -4,8 +4,11 @@ import { useMDXComponents as getThemeComponents } from "nextra-theme-docs"; // n
 const themeComponents = getThemeComponents();
 
 // Merge components
+import Weather21234 from "./app/Links/Weather21234";
+
 export function useMDXComponents(components) {
   return {
+    Weather21234,
     ...themeComponents,
     ...components,
   };
