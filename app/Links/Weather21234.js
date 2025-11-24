@@ -22,9 +22,10 @@ const Weather21234 = () => {
         }
         setLoading(false);
       })
-      .catch((_err) => {
+      .catch((err) => {
         setError("Failed to fetch weather");
         setLoading(false);
+        console.error(err);
       });
   }, []);
 
